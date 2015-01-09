@@ -19,7 +19,7 @@ module CapEC2
     def stages_tag
       fetch(:ec2_stages_tag)
     end
-
+    
     def self.contact_point_mapping
       {
         :public_dns => :public_dns_name,
